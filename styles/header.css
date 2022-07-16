@@ -1,0 +1,121 @@
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 75px;
+  z-index: 100;
+  background-color: rgb(41, 56, 59);
+}
+
+header #leftSection {
+ 
+  display: flex;
+  justify-content: left;
+  
+}
+
+header #middleSection {
+  display: flex;
+  flex-direction: column;
+  color: azure;
+  align-items: center;
+  flex: 1;
+}
+
+#shopType {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+#productSection {
+  color: rgb(228, 39, 171);
+  font-size: 25px;
+  padding-top: 5px;
+}
+
+#header2 {
+  height: 70px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(42, 129, 145);
+  
+}
+
+#leftSection2 {
+  width: 240px;
+  padding-left: 7px;
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  display: inline-block;
+}
+#logo img {
+  width: 40px;
+  height: 40px;
+}
+
+#leftSection2 span {
+  color: rgb(1, 211, 200);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 34px;
+  white-space: nowrap;
+  margin-left: 5px;
+}
+
+#middleSection2 {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+#middleSection2 div {
+  color: white;
+  font-size: 30px;
+}
+
+#rightSection2 {
+  color: azure;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+#contactsIcon {
+  width: 40px;
+}
+
+#contactsIcon img {
+  width: 30px;
+  height: 30px;
+}
+
+#contactsHeader {
+  flex: 1;
+}
+
+#rightSection2 #contactsHeader {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  justify-content: center;
+}
+
+#moses {
+ margin-top: 8px;
+}
