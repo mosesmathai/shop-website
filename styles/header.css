@@ -4,13 +4,12 @@ header {
   top: 0;
   right: 0;
   left: 0;
-  height: 75px;
+  height: 53px;
   z-index: 100;
-  background-color: rgb(41, 56, 59);
+  background-color: rgb(7, 38, 44);
 }
 
 header #leftSection {
- 
   display: flex;
   justify-content: left;
   
@@ -25,15 +24,15 @@ header #middleSection {
 }
 
 #shopType {
-  color: rgb(255, 255, 255);
-  font-size: 25px;
-  padding-top: 10px;
+  color: rgb(15, 221, 101);
+  font-size: 20px;
+  padding-top: 5px;
 }
 
 #productSection {
   color: rgb(228, 39, 171);
-  font-size: 25px;
-  padding-top: 5px;
+  font-size: 23px;
+  margin-top: -10px;
 }
 
 #header2 {
